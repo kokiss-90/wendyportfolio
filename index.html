@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy Peña Romero Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <span class="navbar-brand" href="#">Wendy Peña Romero</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</span></a>
+            <a class="nav-item nav-link" href="#iam">I am</a>
+            <a class="nav-item nav-link" href="#ptf">Portfolio</a>
+            <a class="nav-item nav-link" href="#ctct">Contact</a>
+          </div>
+        </div>
+      </nav>
+      
+
+    <div id="carrousel" class="carousel slider carousel-fade" data-bs-ride="carousel" data-interval="1500">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="imgs/carousel/city.jpg" alt="city">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/carousel/surf.jpg" alt="baby">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/carousel/agus.jpg" alt="adrian">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="imgs/carousel/sunset.jpg" alt="surf">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>    
+
+<!-- I AM -->
+        <div class="row align-items-center" id="iam">
+            
+            <div class="col-xl-6 col-lg-6 col-sm-12" id="portrait">
+                <img class="img-fluid" src="imgs/wendy.jpg" alt="Wendy">
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-sm-12">
+                <div class="text-center" id="wen">
+                    <h3>Wendy Peña Romero</h3>
+                    <p>I am Wendy Peña Romero, professional photographer native of Colombia. I am a freelancer and photojournalist. Also, I've worked several years at Disney Cruise Line shooting studio portraits, candids, character interaction pictures and so on. Photography is my passion, my lifestyle, my travel and destination in life. I hope you enjoy my work as much as I did making it.</p>
+                </div>
+            </div>
+
+        </div>
+
+<!-- PORTFOLIO -->
+        <div class="container" id="ptf">
+            <div class="row">
+
+                <h2>Portfolio</h2>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/portraits/baby1.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/portraits/baby2.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/architecture/sunsetcity.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/architecture/ceiling.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/architecture/DSCF0651.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+                <div class="item col-sm-6 col-md-4">
+                    <a href="" class="fancybox" data-fancybox="gallery1">
+                        <img src="imgs/architecture/DSCF0328.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+<!-- Contact -->
+
+<form action:"https://formsubmit.co/your@email.com" method="POST">
+    <div class="wrapper align-items-center" id="ctct">
+
+        <h3 class="title">Contact Me</h3>
+        <p class="inquires">Please do not hesitate to contact me directly via this form!</p>
+
+            <div class="input-fields">
+                <div class="items">
+                    <label for="name" class="label">Name</label>
+                    <input type="text" id="name" class="input">
+                </div>
+                <div class="items">
+                    <label for="email" class="label">Email</label>
+                    <input type="text" id="email" class="input">
+                </div>
+                <div class="items">
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message" rows="3" class="text-area"></textarea>
+                </div>
+            </div>
+    
+
+        <div class="text-center">
+            <a class="btn btn-light" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status">
+            <p>Or you can also write me here: <br> contact@mdbootstrap.com</p>
+        </div>
+    </div>
+</form>
+
+
+
+<!-- Footer -->
+<footer>
+    <p>Developed by: Antonella Tizzano</p>
+</footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
