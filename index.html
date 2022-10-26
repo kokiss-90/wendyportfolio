@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wendy Peña Romero Photography</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- CSS only -->
+<!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
 </head>
 
 <body>
+
+<!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <span class="navbar-brand" href="#">Wendy Peña Romero</span>
@@ -31,6 +34,7 @@
         </div>
       </nav>
       
+<!-- CARROUSEL -->
 
     <div id="carrousel" class="carousel slider carousel-fade" data-bs-ride="carousel" data-interval="1500">
 
@@ -66,10 +70,11 @@
     </div>    
 
 <!-- I AM -->
+
         <div class="row align-items-center" id="iam">
             
             <div class="col-xl-6 col-lg-6 col-sm-12" id="portrait">
-                <img class="img-fluid" src="imgs/wendy.jpg" alt="Wendy">
+                <img class="img-fluid" src="imgs/wendy2.jpg" alt="Wendy">
             </div>
 
             <div class="col-xl-6 col-lg-6 col-sm-12">
@@ -82,79 +87,260 @@
         </div>
 
 <!-- PORTFOLIO -->
-        <div class="container" id="ptf">
-            <div class="row">
+    <div class="portfolio" id="ptf">
 
-                <h2>Portfolio</h2>
+        <h2 class="text-center">Portfolio</h2>
 
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/portraits/baby1.jpg" width="100%" height="100%" alt="">
+        <!-- miniatures -->
+            <div class="row lg-12" id="gallery">
+                
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                        <img class="w-100 mb-4" src="imgs/portraits/baby1.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/portraits/baby2.jpg" width="100%" height="100%" alt="">
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                        <img class="w-100 mb-4" src="imgs/portraits/babies.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/architecture/sunsetcity.JPG" width="100%" height="100%" alt="">
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                        <img class="w-100 mb-4" src="imgs/portraits/baby2.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/architecture/ceiling.JPG" width="100%" height="100%" alt="">
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                        <img class="w-100 mb-4" src="imgs/portraits/officer.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/architecture/DSCF0651.JPG" width="100%" height="100%" alt="">
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                        <img class="w-100 mb-4" src="imgs/portraits/adrian.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
-                <div class="item col-sm-6 col-md-4">
-                    <a href="" class="fancybox" data-fancybox="gallery1">
-                        <img src="imgs/architecture/DSCF0328.JPG" width="100%" height="100%" alt="">
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                        <img class="w-100 mb-4" src="imgs/portraits/worker.jpg" width="100%" height="100%" alt="">
                     </a>
                 </div>
-
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                        <img class="w-100 mb-4" src="imgs/portraits/agus1.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage8">
+                        <img class="w-100 mb-4" src="imgs/portraits/agus2.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage9">
+                        <img class="w-100 mb-4" src="imgs/portraits/agus3.jpg" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage10">
+                        <img class="w-100 mb-4" src="imgs/architecture/sunsetcity.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage11">
+                        <img class="w-100 mb-4" src="imgs/architecture/ceiling.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage12">
+                        <img class="w-100 mb-4" src="imgs/architecture/city.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage13">
+                        <img class="w-100 mb-4" src="imgs/street/ninies.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage14">
+                        <img class="w-100 mb-4" src="imgs/street/surfgirl.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#modalImage15">
+                        <img class="w-100 mb-4" src="imgs/street/innocence.JPG" width="100%" height="100%" alt="">
+                    </a>
+                </div>
             </div>
-        </div>
+    </div>
+
+ <!-- big images-->
+            <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true"
+                class="modal fade" id="modalImage1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/baby1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true"
+            class="modal fade" id="modalImage2">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/babies.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true"
+            class="modal fade" id="modalImage3">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/baby2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true"
+            class="modal fade" id="modalImage4">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/officer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true"
+            class="modal fade" id="modalImage5">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/adrian.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true"
+            class="modal fade" id="modalImage6">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/worker.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true"
+            class="modal fade" id="modalImage7">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/agus1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true"
+            class="modal fade" id="modalImage8">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/agus2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true"
+            class="modal fade" id="modalImage9">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/portraits/agus3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true"
+            class="modal fade" id="modalImage10">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/architecture/sunsetcity.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true"
+            class="modal fade" id="modalImage11">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/architecture/ceiling.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage12" aria-hidden="true"
+            class="modal fade" id="modalImage12">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/architecture/city.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+            <div tabindex="-1" aria-labelledby="modalImage13" aria-hidden="true"
+            class="modal fade" id="modalImage13">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/street/ninies.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage14" aria-hidden="true"
+            class="modal fade" id="modalImage14">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/street/surfgirl.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div tabindex="-1" aria-labelledby="modalImage15" aria-hidden="true"
+            class="modal fade" id="modalImage15">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="imgs/street/innocence.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+
 
 <!-- Contact -->
 
-<form action:"https://formsubmit.co/your@email.com" method="POST">
+<form id="form" action="https://formsubmit.co/wendyuska0705@gmail.com" method="POST" class="form">
     <div class="wrapper align-items-center" id="ctct">
 
         <h3 class="title">Contact Me</h3>
-        <p class="inquires">Please do not hesitate to contact me directly via this form!</p>
+        <p class="inquires">Please do not hesitate! Contact me via this form:</p>
 
             <div class="input-fields">
+
                 <div class="items">
                     <label for="name" class="label">Name</label>
-                    <input type="text" id="name" class="input">
+                    <input type="text" id="name" class="input" required>
                 </div>
+
                 <div class="items">
                     <label for="email" class="label">Email</label>
-                    <input type="text" id="email" class="input">
+                    <input type="text" id="email" class="input" required>
                 </div>
+
                 <div class="items">
                     <label for="message">Message</label>
-                    <textarea type="text" id="message" rows="3" class="text-area"></textarea>
+                    <textarea type="text" id="message" rows="3" class="text-area" required></textarea>
                 </div>
-            </div>
-    
 
-        <div class="text-center">
-            <a class="btn btn-light" onclick="document.getElementById('contact-form').submit();">Send</a>
-        </div>
+                <div class="text-center">
+                    <button type="submit">Send</button>
+                </div>
+
+            </div>
+
         <div class="status">
-            <p>Or you can also write me here: <br> contact@mdbootstrap.com</p>
+            <p>Or you can also write me to: <br> wendyuska0705@gmail.com</p>
         </div>
     </div>
 </form>
@@ -162,14 +348,33 @@
 
 
 <!-- Footer -->
-<footer>
-    <p>Developed by: Antonella Tizzano</p>
+<footer class="footer">
+    <div class="dev">
+        <a href="mailto:tizzano.antonella@gmail.com" target="_blank">
+            Webmaster: Antonella Tizzano 
+            <i class="bi bi-chat-heart"></i>
+        </a>
+    </div>
+    
 </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+        <!-- Contact -->
+        <script>
+            const $form = document.querySelector('#form')
+
+            $form.addEventListener('submit', handleSubmit)
+
+            function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                console.log(form.get('name'))
+            }
+
+        </script>
 </body>
 
 </html>
